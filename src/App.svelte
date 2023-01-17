@@ -7,8 +7,8 @@
 
 <style>
 	:global(body) {
-		background: rgb(255,215,181);
-    	background: linear-gradient(-35deg, rgba(255,215,181) 0%, rgba(255,103,0) 100%) no-repeat center center fixed;
+		background: rgb(249, 83, 198);
+    	background: linear-gradient(-55deg, rgba(249, 83, 198) 0%,rgba(185, 29, 115) 100%) no-repeat center center fixed;
 		background-size: cover;
 		color: #FFFFFF;
 		font-family: "Poppins", sans-serif;

@@ -34,7 +34,7 @@
 <div
     in:fly={{ x: 200, duration: 500, delay: 500 }}
     out:fly={{ x: -200, duration: 500 }}>
-    <h1>{$quizTitle}</h1>
+    <h3>{$quizTitle}</h3>
     <form on:submit|preventDefault={onSubmit}>
         <label>
             Elige el número de preguntas
