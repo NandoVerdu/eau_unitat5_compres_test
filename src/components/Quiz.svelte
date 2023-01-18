@@ -163,7 +163,7 @@
             </fieldset>
 
             {#if $currentQuestionIndex < $quiz.length - 1}
-                <button type="submit">Siguiente</button>
+                <button type="submit">Següent</button>
             {:else}
                 <button type="submit">Ok</button>
             {/if}

@@ -37,7 +37,7 @@
     <h3>{$quizTitle}</h3>
     <form on:submit|preventDefault={onSubmit}>
         <label>
-            Elige el número de preguntas
+            Tria el número de preguntes
             <input
                 type="number"
                 bind:value={$numberOfQuestions}
@@ -45,6 +45,6 @@
                 min="1"
                 required />
         </label>
-        <button type="submit">Listo!</button>
+        <button type="submit">Comença!</button>
     </form>
 </div>
